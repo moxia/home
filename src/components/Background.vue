@@ -41,11 +41,11 @@ const changeBg = (type) => {
   if (type == 0) {
     bgUrl.value = `/images/background${bgRandom}.jpg`;
   } else if (type == 1) {
-    bgUrl.value = "https://api.dujin.org/bing/1920.php";
+    bgUrl.value = "https://api.vvhan.com/api/bing";
   } else if (type == 2) {
-    bgUrl.value = "https://api.aixiaowai.cn/gqapi/gqapi.php";
+    bgUrl.value = "https://api.vvhan.com/api/wallpaper/views";
   } else if (type == 3) {
-    bgUrl.value = "https://api.aixiaowai.cn/api/api.php";
+    bgUrl.value = "https://api.vvhan.com/api/wallpaper/acg";
   }
 };
 
